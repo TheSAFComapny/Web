@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "wumpusit.tk",
+  "Id": "c0a27c92-6313-4928-9d72-937c8702bbcb"
+}
