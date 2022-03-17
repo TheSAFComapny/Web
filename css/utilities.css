@@ -5,6 +5,13 @@
   padding: 0 40px;
 }
 
+.containerwhy {
+  max-width: 1100px;
+  margin: 50 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
 .card {
   background-color: #fff;
   color: #333;

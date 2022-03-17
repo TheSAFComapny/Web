@@ -4,7 +4,7 @@
 :root {
   --primary-color: #fd4d4d;
   --secondary-color: #fd2b2b;
-  --dark-color: #fd2b2b;
+  --dark-color: #fd4d4d;
   --light-color: #f4f4f4;
   --success-color: #5cb85c;
   --error-color: #d9534f;
@@ -171,6 +171,27 @@ pre {
   font-size: 20px;
   font-weight: bold;
 }
+
+/* why */
+.stats {
+  padding-top: 100px;
+  animation: slideInFromBottom 1s ease-in;
+}
+
+.why-heading {
+  max-width: 500px;
+  margin: auto;
+}
+
+.why .grid h3 {
+  font-size: 35px;
+}
+
+.why .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
 /* Cli */
 .cli .grid {
