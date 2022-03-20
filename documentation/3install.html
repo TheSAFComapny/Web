@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/136b7d8054.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel='icon' href='favicon (1).ico' type='image/x-icon'/ >
-    <title>SAF - Features</title>
+    <link rel="stylesheet" href="/css/utilities.css">
+    <link rel="stylesheet" href="/css/style.css">
+	<link rel='icon' href='/favicon (1).ico' type='image/x-icon'/ >
+    <title>SAF - Docs</title>
 </head>
 <body>
     <!-- Navbar -->
@@ -18,7 +18,7 @@
                 <ul>
                     <li><a href="index">Home</a></li>
                     <li><a href="features">Features</a></li>
-
+                    <li><a href="docs">Docs</a></li>
                     
                 </ul>
             </nav>
@@ -26,67 +26,85 @@
     </div>
 
     <!-- Head -->
-    <section class="features-head bg-primary py-3">
+    <section class="docs-head bg-primary py-3">
         <div class="container grid">
             <div>
-                <h1 class="xl">Features</h1>
+                <h1 class="xl">Docs</h1>
                 <p class="lead">
-                    Check out the features of Wumpus.it
+                    Learn how to work with the SAF platform
                 </p>
             </div>
-            <img src="images/server.png" alt="">
+            <img src="images/docs.png" alt="">
         </div>
     </section>
 
-    <!-- Sub head -->
-    <section class="features-sub-head bg-light py-3">
+    <!-- Docs main -->
+    <section class="docs-main my-4">
         <div class="container grid">
-            <div>
-                <h1 class="md">The SAF Platform</h1>
+            <div class="card bg-light p-3">
+                <h3 class="my-2">Getting Started</h3>
+                <nav>
+                    <ul>
+                        <li><a href="1docs.html">Introduction</a></li>
+                        <li><a href="2install.html">Installation on Google Workspace</a></li>
+                        <li><a class="text-primary" href="3install.html">Installation On Microsoft Admin</a></li>
+                    </ul>
+                </nav>
+
+                <h3 class="my-2">Deployment</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Setting up a container</a></li>
+							<li><a href="#">Using the CLI</a></li>
+                    </ul>
+                </nav>
             </div>
-            <img src="images/server2.png" alt="">
+            <div class="card">
+                <h2>How to install (Microsoft Teams)</h2>
+                <p>SAF makes it easy for your employees to find help.</p>
+
+                <div class="alert alert-success">
+                    <i class="fa-solid fa-circle-info"></i>Microsoft has no official way to add foced bookmarks but there is a workaraond
+                </div>
+
+                <h3>Step 1</h3>
+                <p>
+                    Open Up <a class="text-primary" href="https://teams.microsoft.com/" target="_blank">Microsoft Teams</a>
+                </p>
+                <h3>Step 2</h3>
+                <p>
+                    Click on join or create new team
+                </p>
+                <img src="images/microsoftinstall1r.png" alt="">
+                <h3>Step 3</h3>
+                <p>
+                    Click on "New Team"
+                </p>
+                <img src="images/microsoftinstall2r.png" alt="">
+                <h3>Step 4</h3>
+                <p>Click on "Start Form Scratch"</p>
+                <img src="images/microsoftinstall3r.png" alt="">
+                <h3>Step 5</h3>
+                <p>Click on "Org Wide"</p>
+                <img src="images/microsoftinstall4r.png" alt="">
+                <h3>Step 6</h3>
+                <p>Fist Name your team and click on "Create"</p>
+                <img src="images/microsoftinstall5r.png" alt="">
+                <h3>Step 7</h3>
+                <p>Click on "New coversation"</p>
+                <img src="images/microsoftinstall6r.png" alt="">
+                <h3>Step 8</h3>
+                <p>Send A message Like "Access IT support here: https://demo.safapp.xyz" then send it</p>
+                <img src="images/microsoftinstall7r.png" alt="">
+                <br>
+                <br>
+
+                <a href="1docs.html" class="btn btn-primary"><i class="fa-solid fa-angle-left"></i> Prevous</a>   <a href="2install.html" class="btn btn-primary">Next <i class="fa-solid fa-angle-right"></i></a>
+
+            </div>
         </div>
     </section>
-
-    <section class="features-main my-2">
-        <div class="container grid grid-3">
-            <div class="card flex">
-                <i class="fas fa-server fa-3x"></i>
-                <p>Our servers are running 24/7</p>
-            </div>
-            <div class="card flex">
-                <i class="fa-solid fa-laptop fa-3x"></i>
-                <p>
-                    New Device Type? No Problem?
-                </p>
-            </div>
-            <div class="card flex">
-                <i class="fas fa-laptop-code fa-3x"></i>
-                <p>
-                    Our team of developers can add any page in less than an hour
-                </p>
-            </div>
-            <div class="card flex">
-                <i class="fas fa-database fa-3x"></i>
-                <p>
-                    Easy to use UI, just like this website
-                </p>
-            </div>
-            <div class="card flex">
-                <i class="fas fa-power-off fa-3x"></i>
-                <p>
-                    Have your site up in 1 week or less
-                </p>
-            </div>
-            <div class="card flex">
-                <i class="fa-solid fa-envelope fa-3x"></i>
-                <p>
-                   A Large support team on your side
-                </p>
-            </div>
-        </div>
-    </section>
-
+    
     <!-- Footer -->
     <footer class="footer bg-dark py-5">
         <div class="container grid grid-3">
@@ -136,4 +154,5 @@
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
       </script>
+</body>
 </html>
