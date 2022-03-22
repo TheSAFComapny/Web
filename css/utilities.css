@@ -36,6 +36,11 @@
   border: 1px #fff solid;
 }
 
+.btn-outlineann {
+  background-color: #fd4d4d;
+  border: 1px #fff solid;
+}
+
 .btn:hover {
   transform: scale(0.98);
 }
