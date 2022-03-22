@@ -94,16 +94,19 @@ pre {
 
 .showcase h1 {
   font-size: 40px;
+    animation: slideInFromRight 1s ease-in;
 }
 
 .showcase p {
   margin: 20px 0;
+  animation: slideInFromRight 1s ease-in;
 }
 
 .showcase .grid {
   overflow: visible;
   grid-template-columns: 55% auto;
   gap: 30px;
+  animation: slideInFromRight 1s ease-in;
 }
 
 .showcase-text {
@@ -111,6 +114,17 @@ pre {
 }
 
 .showcase-form {
+  position: relative;
+  top: 60px;
+  height: 350px;
+  width: 400px;
+  padding: 40px;
+  z-index: 100;
+  justify-self: flex-end;
+  animation: slideInFromRight 1s ease-in;
+}
+
+.showcase-form-contact {
   position: relative;
   top: 60px;
   height: 350px;
@@ -396,4 +410,6 @@ pre {
   .showcase-form {
     width: 300px;
   }
+
+  
 }
