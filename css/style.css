@@ -14,6 +14,8 @@
   --info-color: #1567e0;
 }
 
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -74,7 +76,9 @@ pre {
   
 }
 
-
+.tostext {
+  padding: 1in;
+}
 
 .navbar ul {
   display: flex;
