@@ -70,7 +70,8 @@ pre {
 
 /* Navbar */
 .navbar {
-  background-color: var(--secondary-color);
+  background: rgb(253,77,77);
+  background: linear-gradient(90deg, rgba(253,77,77,1) 0%, rgba(224,47,147,1) 38%, rgba(222,45,152,1) 49%, rgba(185,5,244,1) 100%); 
   color: #fff;
   height: 75px;
   
@@ -91,7 +92,7 @@ pre {
 }
 
 .navbar a:hover {
-  border-bottom: 2px #fff solid;
+  border-bottom: 5px #fff solid;
 }
 
 .navbar .flex {
@@ -101,7 +102,8 @@ pre {
 /*Announcement */
 
 .ann {
-  background-color: var(--success-color);
+  background: rgb(253,77,77);
+  background: linear-gradient(90deg, rgba(253,77,77,1) 0%, rgba(224,47,147,1) 38%, rgba(222,45,152,1) 49%, rgba(185,5,244,1) 100%);
   color: #fff;
   height: 65px;
 }
@@ -113,13 +115,14 @@ pre {
 /* Showcase */
 .showcase {
   height: 400px;
-  background-color: var(--primary-color);
+  background: rgb(253,77,77);
+  background: linear-gradient(90deg, rgba(253,77,77,1) 0%, rgba(224,47,147,1) 38%, rgba(222,45,152,1) 49%, rgba(185,5,244,1) 100%); 
   color: #fff;
   position: relative;
 }
 
 .showcase h1 {
-  font-size: 40px;
+  font-size: 50px;
     animation: slideInFromRight 1s ease-in;
 }
 
@@ -279,7 +282,9 @@ pre {
 }
 
 .languages .card:hover {
-  transform: translateY(-15px);
+  transform: translateY(15px);
+  background: rgb(253,77,77);
+  background: linear-gradient(90deg, rgba(253,77,77,1) 0%, rgba(224,47,147,1) 38%, rgba(222,45,152,1) 49%, rgba(185,5,244,1) 100%);
 }
 
 /* Features */
@@ -298,6 +303,18 @@ pre {
   margin-right: 20px;
 }
 
+.features-main .card:hover {
+  transform: translateY(15px);
+  background: rgb(253,77,77);
+  background: linear-gradient(90deg, rgba(253,77,77,1) 0%, rgba(224,47,147,1) 38%, rgba(222,45,152,1) 49%, rgba(185,5,244,1) 100%);
+}
+
+.features-main .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+}
+
 .features-main .grid {
   padding: 30px;
 }
@@ -313,7 +330,9 @@ pre {
 /* Docs */
 .docs-main h3 {
   margin: 20px 0;
+  
 }
+
 
 .docs-main .grid {
   grid-template-columns: 1fr 2fr;
@@ -335,6 +354,7 @@ pre {
 .footer .social a {
   margin: 0 0px;
 }
+
 
 /* Animations */
 @keyframes slideInFromLeft {
