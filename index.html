@@ -42,7 +42,92 @@
     <section class="showcase">
         <div class="container grid">
             <div class="showcase-text">
-                <h1>SAF</h1>
+                <style type="text/css">
+                    @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+                    
+                    #container {
+                        margin: 10px 0 0 0;
+                        align-self: auto;
+                    }
+                    
+                    #text {
+                        display: inline-block;
+                        color: rgb(98, 0, 255);
+                        border-right: 3px solid rgb(98, 0, 255);
+                        line-height: 50px;
+                        font-size: 50px;
+                        text-decoration: underline;
+                    }
+                    
+                    </style>
+                    </head>
+                    
+                    <body>
+                        <h1>Where The World</h1>
+                    <div id="container">
+                        <div id="text"></div>
+                    </div>
+                    
+                    <script type="text/javascript">
+                    
+                    // List of sentences
+                    var _CONTENT = ["Solves Problems", "Gets Help", "Finds Support"];
+                    
+                    // Current sentence being processed
+                    var _PART = 0;
+                    
+                    // Character number of the current sentence being processed 
+                    var _PART_INDEX = 0;
+                    
+                    // Holds the handle returned from setInterval
+                    var _INTERVAL_VAL;
+                    
+                    // Element that holds the text
+                    var _ELEMENT = document.querySelector("#text");
+                    
+                    // Implements typing effect
+                    function Type() { 
+                        var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+                        _ELEMENT.innerHTML = text;
+                        _PART_INDEX++;
+                    
+                        // If full sentence has been displayed then start to delete the sentence after some time
+                        if(text === _CONTENT[_PART]) {
+                            clearInterval(_INTERVAL_VAL);
+                            setTimeout(function() {
+                                _INTERVAL_VAL = setInterval(Delete, 50);
+                            }, 1000);
+                        }
+                    }
+                    
+                    // Implements deleting effect
+                    function Delete() {
+                        var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+                        _ELEMENT.innerHTML = text;
+                        _PART_INDEX--;
+                    
+                        // If sentence has been deleted then start to display the next sentence
+                        if(text === '') {
+                            clearInterval(_INTERVAL_VAL);
+                    
+                            // If last sentence then display the first one, else move to the next
+                            if(_PART == (_CONTENT.length - 1))
+                                _PART = 0;
+                            else
+                                _PART++;
+                            _PART_INDEX = 0;
+                    
+                            // Start to display the next sentence after some time
+                            setTimeout(function() {
+                                _INTERVAL_VAL = setInterval(Type, 100);
+                            }, 200);
+                        }
+                    }
+                    
+                    // Start the typing effect on load
+                    _INTERVAL_VAL = setInterval(Type, 100);
+                    
+                    </script>
                 <p>SAF makes clean and robust solutions for helping your employees
                 <br>
                 through technical challenges</p>
