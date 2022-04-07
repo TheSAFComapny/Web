@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@polymer/html-modules-toolkit": "^0.0.2",
     "firebase": "^9.6.9"
   }
 }
