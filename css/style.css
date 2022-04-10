@@ -120,7 +120,7 @@ pre {
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&display=swap');
 .blogtext {
-  padding: 50%;
+  text-align: center;
   font-family: 'Source Serif 4', serif;
 }
 
