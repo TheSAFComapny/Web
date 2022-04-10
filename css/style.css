@@ -62,6 +62,14 @@ body {
   font-family: 'Montserrat', sans-serif;*/
 }
 
+code {
+  font-family: 'Lexend', sans-serif;
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
 ul {
   list-style-type: none;
 }
@@ -84,6 +92,7 @@ p {
 
 img {
   width: 100%;
+  border-radius: 15px;
 }
 
 code,
@@ -115,6 +124,12 @@ pre {
 
 .tostext {
   padding: 1in;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&display=swap');
+.blogtext {
+  text-align: center;
+  font-family: 'Source Serif 4', serif;
 }
 
 .navbar ul {
