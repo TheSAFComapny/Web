@@ -62,6 +62,14 @@ body {
   font-family: 'Montserrat', sans-serif;*/
 }
 
+code {
+  font-family: 'Lexend', sans-serif;
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
 ul {
   list-style-type: none;
 }
