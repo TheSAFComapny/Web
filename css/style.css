@@ -154,8 +154,7 @@ pre {
 /*Announcement */
 
 .ann {
-  background: rgb(1,88,181);
-  background: linear-gradient(180deg, rgba(1,88,181,1) 50%, rgba(246,206,0,1) 50%);
+  background:rgba(246,206,0,1);
   color: #fff;
   height: 65px;
 }
