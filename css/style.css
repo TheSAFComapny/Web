@@ -197,7 +197,7 @@ pre {
 }
 
 .showcase .grid {
-  overflow: invisible;
+  overflow: visible;
   grid-template-columns: 55% auto;
   gap: 30px;
   animation: slideInFromRight 1s ease-in;
