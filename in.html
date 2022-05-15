@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TBSXZRJ');</script>
+    <!-- End Google Tag Manager -->
+    
+    <script src="https://kit.fontawesome.com/136b7d8054.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='icon' href='favicon (1).ico' type='image/x-icon'/ >
+    <title>SAF</title>
+    <meta name="title" content="SAF">
+<meta name="description" content="This is were teams Use Software, Solve problems, Get Help">
+<meta name="keywords" content="SAF.com, safapp, safapps safapp.com, SAF, technology support">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="1 days">
+<meta name="author" content="The SAF Corp">
+<script>
+    javascript: (() => {
+  alert('Service Alert to SAF’s operations. Press "OK" To continue to website');
+})();
+</script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBSXZRJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Announcement -->
+    <div class="ann">
+        <div class="container flex">
+            <h2 class="logo"><a href="https://war.ukraine.ua/donate/" target="_blank">Click Here To Support Ukraine</a></h2>
+            <nav>
+                <ul>
+                        
+                            
+                </ul>
+            </nav>
+            </div>
+        </div>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">SAF</h1>
+            <nav>
+                <ul>
+                    <li><a href="index">&bull; Home</a></li>
+                    <li><a href="features">Features</a></li>
+                    <li><a href="documentation/1docs">Support</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <script type="module" src="header.html"></script>
+
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <style type="text/css">
+                    @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+                    @keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+                    #container {
+                        margin: 10px 0 0 0;
+                        align-self: auto;
+                    }
+                    
+                    #text {
+                        display: inline-block;
+                        color: rgb(98, 0, 255);
+                        border-right: 3px solid rgb(98, 0, 255);
+                        line-height: 50px;
+                        font-size: 50px;
+                        text-decoration: underline;
+                        animation: slideInFromRight 1s ease-in;
+                    }
+                    
+                    </style>
+                    </head>
+                    
+                    <body>
+                        <h1>Where The World</h1>
+                    <div id="container">
+                        <div id="text"></div>
+                    </div>
+                    
+                    <script type="text/javascript">
+                    
+                    // List of sentences
+                    var _CONTENT = ["Solves Problems", "Gets Help", "Uses Software"];
+                    
+                    // Current sentence being processed
+                    var _PART = 0;
+                    
+                    // Character number of the current sentence being processed 
+                    var _PART_INDEX = 0;
+                    
+                    // Holds the handle returned from setInterval
+                    var _INTERVAL_VAL;
+                    
+                    // Element that holds the text
+                    var _ELEMENT = document.querySelector("#text");
+                    
+                    // Implements typing effect
+                    function Type() { 
+                        var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+                        _ELEMENT.innerHTML = text;
+                        _PART_INDEX++;
+                    
+                        // If full sentence has been displayed then start to delete the sentence after some time
+                        if(text === _CONTENT[_PART]) {
+                            clearInterval(_INTERVAL_VAL);
+                            setTimeout(function() {
+                                _INTERVAL_VAL = setInterval(Delete, 50);
+                            }, 1000);
+                        }
+                    }
+                    
+                    // Implements deleting effect
+                    function Delete() {
+                        var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+                        _ELEMENT.innerHTML = text;
+                        _PART_INDEX--;
+                    
+                        // If sentence has been deleted then start to display the next sentence
+                        if(text === '') {
+                            clearInterval(_INTERVAL_VAL);
+                    
+                            // If last sentence then display the first one, else move to the next
+                            if(_PART == (_CONTENT.length - 1))
+                                _PART = 0;
+                            else
+                                _PART++;
+                            _PART_INDEX = 0;
+                    
+                            // Start to display the next sentence after some time
+                            setTimeout(function() {
+                                _INTERVAL_VAL = setInterval(Type, 100);
+                            }, 200);
+                        }
+                    }
+                    
+                    // Start the typing effect on load
+                    _INTERVAL_VAL = setInterval(Type, 100);
+                    
+                    </script>
+                <p>SAF makes clean and robust solutions for helping your employees
+                <br>
+                through technical challenges</p>
+                
+            </div>
+
+            <div class="showcase-form card">
+                <h2>Contact</h2>
+                 
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="form-control1">
+                        <input type="text" name="name" placeholder="Full name" required>
+                    </div>
+                    <div class="form-control1">
+                        <input type="text" name="company" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-control1">
+                        <input type="text" name="message" placeholder="Message" required>
+                        <div class="form-control1">
+                            <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+            <!-- Error Is OK -->
+                SAF is the best platform for managing docs for your internal IT Support
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fa-solid fa-book-medical fa-3x"></i>
+                    <h3>100,000</h3>
+                    <p class="text-secondary">People Helped</p>
+            </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>100,000</h3>
+                    <p class="text-secondary">Pages Published</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star fa-3x"></i>
+                    <h3>5</h3>
+                    <p class="text-secondary">Star Reviews</p>
+                </div>
+            </div>
+        </div>
+        Numbers may not represent actual stats
+    </section>
+
+
+     <section class="languages">
+        <h2 class="md text-center my-2">
+            Supported Operating Systems
+        </h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>Windows</h4>
+                <i class="fa-brands fa-windows fa-5x"></i>
+            </div>
+            <div class="card">
+                <h4>Mac OS</h4>
+                <i class="fa-brands fa-apple fa-5x"></i>
+              </div>
+              <div class="card">
+                <h4>Linux</h4>
+                <i class="fa-brands fa-linux fa-5x"></i>
+              </div>
+              <div class="card">
+                <h4>Chrome OS</h4>
+                <i class="fa-brands fa-chrome fa-5x"></i>
+              </div>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="container">
+            <h1 class="stats-heading text-center my-1">
+                Our Blog
+            </h1>
+        </div>
+        <section class="features-main my-2">
+            <div class="container grid grid-3">
+                <div class="card flex">
+                    <i class="fa-solid fa-robot fa-3x"></i>
+                    <p><a href="https://safapp.net/blog/ai_makes_story_about_cat_dog?utm_source=website&utm_medium=homepagebanner&utm_campaign=blog_start&utm_id=blogstart&utm_term=none&utm_content=none">AI Tries To make a story about a cat and a dog</a></p>
+                </div>
+            </section>
+            <section class="features-main my-2">
+                <div class="container grid grid-3">
+                <div class="card flex">
+                    <i class="fa-solid fa-terminal fa-3x"></i>
+                    <p><a href="https://safapp.net/blog/why_you_need_meta_tags_on_website?utm_source=website&utm_medium=homepagebanner&utm_campaign=blog_start&utm_id=blogstart&utm_term=none&utm_content=none">Why you need meta tags on your website</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-main my-2">
+            <div class="container grid grid-3">
+            <div class="card flex">
+                <i class="fa-solid fa-paste fa-3x"></i>
+                <p><a href="blog/blogselect.html">More Blogs</a></p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="container">
+        <h1 class="stats-heading text-center my-1">
+            <a href="blog/blogselect.html">More Blogs</a></p>
+        </h1>
+    </div>
+    <br>
+    <br>
+        
+
+
+<section class="why">
+    <div class="container">
+        <h1 class="stats-heading text-center my-1">
+            Why SAF?
+        </h1>
+    </div>
+    <section class="features-main my-2">
+        <div class="container grid grid-3">
+            <div class="card flex">
+                <i class="fas fa-server fa-3x"></i>
+                <p>Our servers Run 24/7/365</p>
+            </div>
+            <div class="card flex">
+                <i class="fas fa-laptop-code fa-3x"></i>
+                <p>
+                    Our team of developers can add any page in less than an hour
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fa-solid fa-arrow-up-right-from-square fa-3x"></i>
+                <p>
+                    Always improving
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fa-solid fa-arrow-pointer fa-3x"></i>
+                <p>
+                    Easy to use UI
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fa-solid fa-calendar-days fa-3x"></i>
+                <p>
+                    Have your site up in 1 week or less
+                </p>
+            </div>
+            <div class="card flex">
+                <i class="fa-solid fa-people-group fa-3x"></i>
+                <p>
+                   A Large Support team on your side
+                </p>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+<!-- Price -->
+<h1 class="stats-heading text-center my-1">
+    Plans <br>
+    5% Off When you Buy Yearly
+</h1>
+<br>
+
+<h2 class="stats-heading text-center my-1">
+    <a href="onboard">Small business - $15/month - $171/year</a>
+    <a href="onboard">Startup - $100/month - $1,140/year</a>
+    <a href="onboard">Enterprise - $1000/month - $11,400/year </a>
+</h2>
+<br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+    <section class="why">
+        <div class="container">
+            <h1 class="stats-heading text-center my-1">
+                Still Not Convinced? 
+            </h1>
+            <br>
+            <img src="images/promoimg.png" alt="Promo Image">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+            <h1 class="stats-heading text-center my-1"><a href="https://demo.safapp.xyz/">View Live Demo</a></h1>
+            <br>
+            <br>
+            <br>
+
+
+
+
+                
+        </div>
+
+    </section>
+
+
+
+
+
+  
+
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>SAF
+                </h1>
+               Made with ❤ by the <a href="https://github.com/TheSAFComapny" target="_blank">@SAF</a> Team
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="features">Features</a></li>
+                    <li><a href="documentation/1docs">Support</a></li>
+                    <li><a href="contact">Contact Us</a></li>
+                    <li><a href="privacy">Privacy Policy</a></li>
+                    <li><a href="tos">Terms Of Service</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://github.com/TheSAFComapny" target="_blank"> <i class="fab fa-github fa-2x"></i></a>
+                <a href="https://twitter.com/safapps" target="_blank"> <i class="fa-brands fa-twitter fa-2x"></i></i></a>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/0a86f8897d88ab18f04194a19dfbd5f5.js"></script>
+
+    <script src="https://j989gvv1t13w.statuspage.io/embed/script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBo-2ULOyQQF3Pep6FV9U918zVI3kbTWZg",
+          authDomain: "safcustomorexp.firebaseapp.com",
+          projectId: "safcustomorexp",
+          storageBucket: "safcustomorexp.appspot.com",
+          messagingSenderId: "904730315771",
+          appId: "1:904730315771:web:1c12b881b4d9b4ed24595e",
+          measurementId: "G-W7PTWX3VNL"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21121562.js"></script>
+<!-- End of HubSpot Embed Code -->
+</body>
+</html>
+
+
