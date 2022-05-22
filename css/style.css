@@ -110,8 +110,8 @@ pre {
 
 /* Navbar */
 .navbar {
-  background: rgb(253,77,77);
-  background: linear-gradient(90deg, rgba(253,77,77,1) 0%, rgba(224,47,147,1) 38%, rgba(222,45,152,1) 49%, rgba(185,5,244,1) 100%);
+  background: rgb(206,16,252);
+background: linear-gradient(90deg, rgba(206,16,252,1) 30%, rgba(253,77,77,1) 71%, rgba(252,186,3,1) 100%);
   color: #fff;
   height: 60px;
   position: sticky; top: 0
@@ -329,6 +329,8 @@ pre {
 /* Cloud */
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
+  background: rgb(206,16,252);
+background: linear-gradient(90deg, rgba(206,16,252,1) 30%, rgba(253,77,77,1) 71%, rgba(252,186,3,1) 100%);
 }
 
 /* Languages */
@@ -426,8 +428,8 @@ pre {
 }
 .footer{
   margin: 0 0px;
-  background: rgb(253,77,77);
-  background: linear-gradient(90deg, rgba(253,77,77,1) 0%, rgba(224,47,147,1) 38%, rgba(222,45,152,1) 49%, rgba(185,5,244,1) 100%);
+  background: rgb(206,16,252);
+background: linear-gradient(90deg, rgba(206,16,252,1) 30%, rgba(253,77,77,1) 71%, rgba(252,186,3,1) 100%);
 }
 
 
